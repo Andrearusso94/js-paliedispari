@@ -44,7 +44,7 @@ if (sumNumbers(sum) == true){
 }*/
 
 
-//Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
+//Chiedere all’utente di inserire una parola 
 
 const myWord = prompt('scrivi una parola')
 
@@ -53,10 +53,12 @@ let singleLetters;
 let anotherWord = ''
 let i = myWord.length -1
 
+//Creare una funzione per capire se la parola inserita è palindroma
+
+function wordPalindroma(){
 
 //uso ciclo while per stampare e separare le singole lettere
-function wordPalindroma(){
-while (i >= 0) {
+    while (i >= 0) {
     singleLetters = myWord[i];
     anotherWord += singleLetters;
     
