@@ -1,6 +1,6 @@
 //Pari e Dispari
 
-//. Sommiamo i due numeri 
+
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
 //Dichiariamo chi ha vinto.
 
@@ -18,5 +18,10 @@ function generateRandomNumber(min, max){
 for (let i = 0; i < 1; i++){
     const randomNumber = generateRandomNumber(1)
     console.log(randomNumber, 'questo è il numero del computer')
-
+    
+    // Sommiamo i due numeri 
+     const sum = myNumber + randomNumber
+     console.log(sum, 'questa è la somma')
 }
+
+
