@@ -1,7 +1,7 @@
 //Pari e Dispari
 
 
-
+/*
 
 
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. 
@@ -41,4 +41,36 @@ if (sumNumbers(sum) == true){
 } else{
     console.log('somma dispari')
 }
+}*/
+
+
+//Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
+
+const myWord = prompt('scrivi una parola')
+
+// creo variabili per singole lettere/altra parola/calcolo lunghezza parola
+let singleLetters;
+let anotherWord = ''
+let i = myWord.length -1
+
+
+//uso ciclo while per stampare e separare le singole lettere
+while (i >= 0) {
+    singleLetters = myWord[i];
+    anotherWord += singleLetters;
+    
+    i--;
+ 
+
+
+
+
 }
+if(myWord === anotherWord){
+    console.log('parola palindroma');
+  } else {
+    console.log('parola normale');
+  }
+
+
+ 
