@@ -27,11 +27,16 @@ for (let i = 0; i < 1; i++){
 
 function sumNumbers(){
   if (sum % 2 == 0){
-    console.log('la somma è pari')
+    return true
   } else{
-    console.log('la somma è dispari')
+    return false
   }
 }
 sumNumbers(sum);
+if (sumNumbers(sum) == true){
+    console.log('somma pari')
 
+} else{
+    console.log('somma dispari')
+}
 }
