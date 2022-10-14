@@ -55,14 +55,13 @@ let i = myWord.length -1
 
 
 //uso ciclo while per stampare e separare le singole lettere
+function wordPalindroma(){
 while (i >= 0) {
     singleLetters = myWord[i];
     anotherWord += singleLetters;
     
     i--;
  
-
-
 
 
 }
@@ -72,5 +71,5 @@ if(myWord === anotherWord){
     console.log('parola normale');
   }
 
-
- 
+}
+ wordPalindroma()
