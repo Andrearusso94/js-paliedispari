@@ -1,7 +1,7 @@
 //Pari e Dispari
 
 
-//Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
+
 //Dichiariamo chi ha vinto.
 
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. 
@@ -22,6 +22,16 @@ for (let i = 0; i < 1; i++){
     // Sommiamo i due numeri 
      const sum = myNumber + randomNumber
      console.log(sum, 'questa è la somma')
+
+//Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) 
+
+function sumNumbers(){
+  if (sum % 2 == 0){
+    console.log('la somma è pari')
+  } else{
+    console.log('la somma è dispari')
+  }
 }
+sumNumbers(sum);
 
-
+}
