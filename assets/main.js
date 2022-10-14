@@ -2,7 +2,7 @@
 
 
 
-//Dichiariamo chi ha vinto.
+
 
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. 
 
@@ -33,6 +33,8 @@ function sumNumbers(){
   }
 }
 sumNumbers(sum);
+
+//Dichiariamo chi ha vinto
 if (sumNumbers(sum) == true){
     console.log('somma pari')
 
